@@ -1,0 +1,59 @@
+body{
+    background-color: grey;
+}
+p{
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    font-size: 40px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+}
+
+.status div{
+    text-align: center;
+    background-color: aqua;
+    box-shadow: rgb(62, 158, 248) 2px 3px 2px;
+    font-size: 25px;
+    margin: 0px 10px 10px;
+    padding: 12px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.inputArea{
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-weight: 300;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgb(60, 60, 60) 5px 8px 5px;
+}
+
+.currentWord{
+    background-color: rgb(221, 209, 209);
+}
+
+.correct{
+    color: lawngreen;
+}
+
+.incorrect{
+    color: red;
+    background-color: rgb(247, 188, 188);
+}
