@@ -4,6 +4,23 @@ body{
 p{
     margin: 0px;
 }
+.section1{
+    width: 100vw;
+}
+.section2{
+    width: 100vw;
+}
+@media screen and (min-width: 1200px){
+    .main{
+        display: flex;
+    }
+    .section1{
+        width: 70vw;
+    }
+    .section2{
+        width: 30vw;
+    }
+}
 .container{
     position: absolute;
     top: 50%;
@@ -43,6 +60,7 @@ p{
     height: 500px;
     border-radius: 10px;
     box-shadow: rgb(60, 60, 60) 5px 8px 5px;
+    outline: none;
 }
 
 .currentWord{
@@ -56,4 +74,56 @@ p{
 .incorrect{
     color: red;
     background-color: rgb(247, 188, 188);
+}
+
+input{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.reset{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.leaderboard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(248, 211, 107);
+    width: 60%;
+    height: 600px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}   
+
+.topPlayers{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+.signIn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(81, 248, 131);
+    position: fixed;
+    right:0;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
 }

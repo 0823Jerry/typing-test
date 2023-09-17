@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="module" src="index.js">
+    <script type="module" src="firebase.js">
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,44 +9,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <div style="position: relative; height: 100vh;" class="section1">
+            <div class="container">
+                <h1 class="title">
+                    Simple Type Test
+                </h1>
+                <div class="reset">
+                    Restart
+                </div>
+                <div class="signIn">
+                    Sign In
+                </div>
 
+                <div>
+                    <input class="name" placeholder="Type your name here">
 
-    <div class="container">
-        <h1 class="title">
-            Simple Type Test
-        </h1>
-        <div class="status">
-            <div>
-                123
-            </div>
-            <div>
-                <p>
-                    Errors
-                </p>
-                <p class="errorBox">
+                </div>
+                <div class="status">
+                    <div>
+                        123
+                    </div>
+                    <div>
+                        <p>
+                            Errors
+                        </p>
+                        <p class="errorBox">
 
-                </p>
-            </div>
-            <div>
-                <p>
-                    Timer
-                </p>
-                <p class="timerBox">
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Timer
+                        </p>
+                        <p class="timerBox">
 
-                </p>
-            </div>
-            <div>
-                789
-            </div>
-            <div>
-                0
+                        </p>
+                    </div>
+                    <div>
+                        789
+                    </div>
+                    <div>
+                        0
+                    </div>
+                </div>
+                <div>
+                    <div class="inputArea" tabindex="0">
+                    
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="inputArea">
-            
+        <div style="position: relative; height: 100vh;" class="section2">
+            <div class="bestScore">
+                
+            </div>
+            <div class="leaderboard">
+                Leaderboard
+            </div>
         </div>
     </div>
-
     <script src="script.js" type="module">
     </script>
 </body>
